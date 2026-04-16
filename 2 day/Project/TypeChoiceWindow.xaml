@@ -1,0 +1,14 @@
+﻿<Window x:Class="HranitelPro.TypeChoiceWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Выбор типа заявки" Height="200" Width="350"
+        WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+
+    <StackPanel Margin="20" VerticalAlignment="Center">
+        <TextBlock Text="Название компании" FontSize="16" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,20"/>
+
+        <Button x:Name="btnPersonal" Content="📝 Личное посещение" Height="50" Margin="0,5" Background="Green" Foreground="White" FontSize="14"/>
+        <Button x:Name="btnGroup" Content="👥 Групповое посещение" Height="50" Margin="0,5" Background="Blue" Foreground="White" FontSize="14"/>
+        <Button x:Name="btnCancel" Content="Отмена" Height="35" Margin="0,10,0,0"/>
+    </StackPanel>
+</Window>
