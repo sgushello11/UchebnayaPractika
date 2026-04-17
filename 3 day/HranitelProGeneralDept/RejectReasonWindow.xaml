@@ -1,0 +1,26 @@
+﻿<Window x:Class="HranitelProGeneralDept.RejectReasonWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Причина отклонения" Height="315" Width="400"
+        WindowStartupLocation="CenterOwner" ResizeMode="NoResize">
+
+    <StackPanel Margin="20">
+        <TextBlock Text="Укажите причину отклонения заявки:" Margin="0,0,0,10"/>
+        <ComboBox x:Name="cmbReason" Margin="0,5" Height="30">
+            <ComboBoxItem>Недостоверные данные паспорта</ComboBoxItem>
+            <ComboBoxItem>Отсутствуют прикреплённые файлы</ComboBoxItem>
+            <ComboBoxItem>Низкое качество файлов</ComboBoxItem>
+            <ComboBoxItem>Другое</ComboBoxItem>
+        </ComboBox>
+
+        <TextBox x:Name="txtOtherReason" Margin="0,10" Height="60" TextWrapping="Wrap" AcceptsReturn="True" 
+                 VerticalScrollBarVisibility="Auto" Visibility="Collapsed" Tag="Введите причину..."/>
+
+        <TextBlock x:Name="lblError" Foreground="Red" Margin="0,5" TextAlignment="Center"/>
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10">
+            <Button x:Name="btnOk" Content="OK" Width="80" Height="30" Margin="5" Background="Green" Foreground="White"/>
+            <Button x:Name="btnCancel" Content="Отмена" Width="80" Height="30" Margin="5"/>
+        </StackPanel>
+    </StackPanel>
+</Window>
