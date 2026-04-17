@@ -1,0 +1,180 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u0414\u0435\u043D\u044C 2\\HranitelPro\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1503B8FD-5428-4F9C-A216-3C0E696D79D3}|..\\..\\\u0414\u0435\u043D\u044C 3\\HranitelProGeneralDept\\HranitelProGeneralDept.csproj|d:\\\u043A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0443\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u0434\u0435\u043D\u044C 3\\hranitelprogeneraldept\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1503B8FD-5428-4F9C-A216-3C0E696D79D3}|..\\..\\\u0414\u0435\u043D\u044C 3\\HranitelProGeneralDept\\HranitelProGeneralDept.csproj|d:\\\u043A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0443\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u0434\u0435\u043D\u044C 3\\hranitelprogeneraldept\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1503B8FD-5428-4F9C-A216-3C0E696D79D3}|..\\..\\\u0414\u0435\u043D\u044C 3\\HranitelProGeneralDept\\HranitelProGeneralDept.csproj|d:\\\u043A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0443\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u0434\u0435\u043D\u044C 3\\hranitelprogeneraldept\\requestdetailswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1503B8FD-5428-4F9C-A216-3C0E696D79D3}|..\\..\\\u0414\u0435\u043D\u044C 3\\HranitelProGeneralDept\\HranitelProGeneralDept.csproj|d:\\\u043A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0443\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u0434\u0435\u043D\u044C 3\\hranitelprogeneraldept\\requestdetailswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1503B8FD-5428-4F9C-A216-3C0E696D79D3}|..\\..\\\u0414\u0435\u043D\u044C 3\\HranitelProGeneralDept\\HranitelProGeneralDept.csproj|d:\\\u043A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0443\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u0434\u0435\u043D\u044C 3\\hranitelprogeneraldept\\rejectreasonwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1503B8FD-5428-4F9C-A216-3C0E696D79D3}|..\\..\\\u0414\u0435\u043D\u044C 3\\HranitelProGeneralDept\\HranitelProGeneralDept.csproj|d:\\\u043A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0443\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u0434\u0435\u043D\u044C 3\\hranitelprogeneraldept\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1503B8FD-5428-4F9C-A216-3C0E696D79D3}|..\\..\\\u0414\u0435\u043D\u044C 3\\HranitelProGeneralDept\\HranitelProGeneralDept.csproj|d:\\\u043A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0443\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u0434\u0435\u043D\u044C 3\\hranitelprogeneraldept\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1503B8FD-5428-4F9C-A216-3C0E696D79D3}|..\\..\\\u0414\u0435\u043D\u044C 3\\HranitelProGeneralDept\\HranitelProGeneralDept.csproj|d:\\\u043A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0443\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u0434\u0435\u043D\u044C 3\\hranitelprogeneraldept\\rejectreasonwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1503B8FD-5428-4F9C-A216-3C0E696D79D3}|..\\..\\\u0414\u0435\u043D\u044C 3\\HranitelProGeneralDept\\HranitelProGeneralDept.csproj|d:\\\u043A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0443\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u0434\u0435\u043D\u044C 3\\hranitelprogeneraldept\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\win11\\AppData\\Local\\Temp\\.vsdbgsrc\\5917cbb70f9b28a245decce13428c9b8b0242b7bced3975c23780bdc4e8c9caa\\XamlReader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1503B8FD-5428-4F9C-A216-3C0E696D79D3}|..\\..\\\u0414\u0435\u043D\u044C 3\\HranitelProGeneralDept\\HranitelProGeneralDept.csproj|d:\\\u043A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0443\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u0434\u0435\u043D\u044C 3\\hranitelprogeneraldept\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RejectReasonWindow.xaml.cs",
+              "DocumentMoniker": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u0414\u0435\u043D\u044C 3\\HranitelProGeneralDept\\RejectReasonWindow.xaml.cs",
+              "RelativeDocumentMoniker": "..\\..\\\u0414\u0435\u043D\u044C 3\\HranitelProGeneralDept\\RejectReasonWindow.xaml.cs",
+              "ToolTip": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u0414\u0435\u043D\u044C 3\\HranitelProGeneralDept\\RejectReasonWindow.xaml.cs",
+              "RelativeToolTip": "..\\..\\\u0414\u0435\u043D\u044C 3\\HranitelProGeneralDept\\RejectReasonWindow.xaml.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAuwC0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T07:13:37.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RequestDetailsWindow.xaml.cs",
+              "DocumentMoniker": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u0414\u0435\u043D\u044C 3\\HranitelProGeneralDept\\RequestDetailsWindow.xaml.cs",
+              "RelativeDocumentMoniker": "..\\..\\\u0414\u0435\u043D\u044C 3\\HranitelProGeneralDept\\RequestDetailsWindow.xaml.cs",
+              "ToolTip": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u0414\u0435\u043D\u044C 3\\HranitelProGeneralDept\\RequestDetailsWindow.xaml.cs",
+              "RelativeToolTip": "..\\..\\\u0414\u0435\u043D\u044C 3\\HranitelProGeneralDept\\RequestDetailsWindow.xaml.cs",
+              "ViewState": "AgIAANQAAAAAAAAAAAAUwPAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T07:12:51.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DatabaseHelper.cs",
+              "DocumentMoniker": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u0414\u0435\u043D\u044C 3\\HranitelProGeneralDept\\DatabaseHelper.cs",
+              "RelativeDocumentMoniker": "..\\..\\\u0414\u0435\u043D\u044C 3\\HranitelProGeneralDept\\DatabaseHelper.cs",
+              "ToolTip": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u0414\u0435\u043D\u044C 3\\HranitelProGeneralDept\\DatabaseHelper.cs",
+              "RelativeToolTip": "..\\..\\\u0414\u0435\u043D\u044C 3\\HranitelProGeneralDept\\DatabaseHelper.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAUwF4AAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T07:06:20.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RejectReasonWindow.xaml",
+              "DocumentMoniker": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u0414\u0435\u043D\u044C 3\\HranitelProGeneralDept\\RejectReasonWindow.xaml",
+              "RelativeDocumentMoniker": "..\\..\\\u0414\u0435\u043D\u044C 3\\HranitelProGeneralDept\\RejectReasonWindow.xaml",
+              "ToolTip": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u0414\u0435\u043D\u044C 3\\HranitelProGeneralDept\\RejectReasonWindow.xaml",
+              "RelativeToolTip": "..\\..\\\u0414\u0435\u043D\u044C 3\\HranitelProGeneralDept\\RejectReasonWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-17T07:13:18.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RequestDetailsWindow.xaml",
+              "DocumentMoniker": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u0414\u0435\u043D\u044C 3\\HranitelProGeneralDept\\RequestDetailsWindow.xaml",
+              "RelativeDocumentMoniker": "..\\..\\\u0414\u0435\u043D\u044C 3\\HranitelProGeneralDept\\RequestDetailsWindow.xaml",
+              "ToolTip": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u0414\u0435\u043D\u044C 3\\HranitelProGeneralDept\\RequestDetailsWindow.xaml",
+              "RelativeToolTip": "..\\..\\\u0414\u0435\u043D\u044C 3\\HranitelProGeneralDept\\RequestDetailsWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-17T07:06:07.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u0414\u0435\u043D\u044C 3\\HranitelProGeneralDept\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "..\\..\\\u0414\u0435\u043D\u044C 3\\HranitelProGeneralDept\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u0414\u0435\u043D\u044C 3\\HranitelProGeneralDept\\MainWindow.xaml.cs",
+              "RelativeToolTip": "..\\..\\\u0414\u0435\u043D\u044C 3\\HranitelProGeneralDept\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAuwFEAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T07:05:27.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Models.cs",
+              "DocumentMoniker": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u0414\u0435\u043D\u044C 3\\HranitelProGeneralDept\\Models.cs",
+              "RelativeDocumentMoniker": "..\\..\\\u0414\u0435\u043D\u044C 3\\HranitelProGeneralDept\\Models.cs",
+              "ToolTip": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u0414\u0435\u043D\u044C 3\\HranitelProGeneralDept\\Models.cs",
+              "RelativeToolTip": "..\\..\\\u0414\u0435\u043D\u044C 3\\HranitelProGeneralDept\\Models.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAqwBQAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T07:06:35.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u0414\u0435\u043D\u044C 3\\HranitelProGeneralDept\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "..\\..\\\u0414\u0435\u043D\u044C 3\\HranitelProGeneralDept\\MainWindow.xaml",
+              "ToolTip": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u0414\u0435\u043D\u044C 3\\HranitelProGeneralDept\\MainWindow.xaml",
+              "RelativeToolTip": "..\\..\\\u0414\u0435\u043D\u044C 3\\HranitelProGeneralDept\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-17T07:05:27.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginWindow.xaml.cs",
+              "DocumentMoniker": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u0414\u0435\u043D\u044C 3\\HranitelProGeneralDept\\LoginWindow.xaml.cs",
+              "RelativeDocumentMoniker": "..\\..\\\u0414\u0435\u043D\u044C 3\\HranitelProGeneralDept\\LoginWindow.xaml.cs",
+              "ToolTip": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u0414\u0435\u043D\u044C 3\\HranitelProGeneralDept\\LoginWindow.xaml.cs",
+              "RelativeToolTip": "..\\..\\\u0414\u0435\u043D\u044C 3\\HranitelProGeneralDept\\LoginWindow.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T07:11:54.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "XamlReader.cs",
+              "DocumentMoniker": "C:\\Users\\win11\\AppData\\Local\\Temp\\.vsdbgsrc\\5917cbb70f9b28a245decce13428c9b8b0242b7bced3975c23780bdc4e8c9caa\\XamlReader.cs",
+              "ToolTip": "C:\\Users\\win11\\AppData\\Local\\Temp\\.vsdbgsrc\\5917cbb70f9b28a245decce13428c9b8b0242b7bced3975c23780bdc4e8c9caa\\XamlReader.cs",
+              "ViewState": "AgIAAPABAAAAAAAAAAAcwAQCAAAfAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T07:20:23.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginWindow.xaml",
+              "DocumentMoniker": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u0414\u0435\u043D\u044C 3\\HranitelProGeneralDept\\LoginWindow.xaml",
+              "RelativeDocumentMoniker": "..\\..\\\u0414\u0435\u043D\u044C 3\\HranitelProGeneralDept\\LoginWindow.xaml",
+              "ToolTip": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u0414\u0435\u043D\u044C 3\\HranitelProGeneralDept\\LoginWindow.xaml",
+              "RelativeToolTip": "..\\..\\\u0414\u0435\u043D\u044C 3\\HranitelProGeneralDept\\LoginWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-17T07:05:54.81Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
