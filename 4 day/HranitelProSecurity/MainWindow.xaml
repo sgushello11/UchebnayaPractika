@@ -1,0 +1,71 @@
+﻿<Window x:Class="HranitelProSecurity.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Терминал охраны - ХранительПРО" Height="550" Width="950"
+        WindowStartupLocation="CenterScreen">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Верхняя панель -->
+        <Border Grid.Row="0" Background="DarkGreen">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,0,15,0" VerticalAlignment="Center">
+                <TextBlock x:Name="lblUser" Foreground="White" VerticalAlignment="Center" Margin="0,0,15,0"/>
+                <Button x:Name="btnLogout" Content="Выйти" Background="DarkRed" Foreground="White" BorderThickness="0" Padding="10,5"/>
+            </StackPanel>
+        </Border>
+
+        <!-- Фильтры и поиск -->
+        <Border Grid.Row="1" Background="#F5F5F5" BorderBrush="#E0E0E0" BorderThickness="0,0,0,1">
+            <StackPanel Margin="10">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <TextBlock Text="Дата:" VerticalAlignment="Center" Margin="5,0"/>
+                    <DatePicker x:Name="dpDate" Width="110" Margin="5"/>
+
+                    <TextBlock Text="Тип:" VerticalAlignment="Center" Margin="5,0"/>
+                    <ComboBox x:Name="cmbType" Width="100" Margin="5">
+                        <ComboBoxItem>Все</ComboBoxItem>
+                        <ComboBoxItem>личная</ComboBoxItem>
+                        <ComboBoxItem>групповая</ComboBoxItem>
+                    </ComboBox>
+
+                    <TextBlock Text="Подразделение:" VerticalAlignment="Center" Margin="5,0"/>
+                    <ComboBox x:Name="cmbDepartment" Width="150" Margin="5"/>
+
+                    <Button x:Name="btnFilter" Content="Фильтр" Width="80" Margin="5" Background="DarkGreen" Foreground="White"/>
+                    <Button x:Name="btnReset" Content="Сброс" Width="80" Margin="5"/>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,5">
+                    <TextBlock Text="Поиск (ФИО или паспорт):" VerticalAlignment="Center" Margin="5,0"/>
+                    <TextBox x:Name="txtSearch" Width="200" Margin="5" Height="25"/>
+                    <Button x:Name="btnSearch" Content="Найти" Width="80" Margin="5" Background="DarkGreen" Foreground="White"/>
+                </StackPanel>
+            </StackPanel>
+        </Border>
+
+        <!-- Список заявок -->
+        <DataGrid x:Name="dgvRequests" Grid.Row="2" AutoGenerateColumns="False" IsReadOnly="True" Margin="10" SelectionMode="Single" SelectionUnit="FullRow">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="№" Binding="{Binding RequestID}" Width="50"/>
+                <DataGridTextColumn Header="Тип" Binding="{Binding RequestType}" Width="80"/>
+                <DataGridTextColumn Header="Посетитель" Binding="{Binding FullName}" Width="150"/>
+                <DataGridTextColumn Header="Подразделение" Binding="{Binding TargetDepartment}" Width="150"/>
+                <DataGridTextColumn Header="Телефон" Binding="{Binding VisitorPhone}" Width="100"/>
+                <DataGridTextColumn Header="Дата" Binding="{Binding StartDate, StringFormat='dd.MM.yyyy'}" Width="100"/>
+                <DataGridTextColumn Header="Вход" Binding="{Binding ActualEntryTime, StringFormat='HH:mm dd.MM'}" Width="100"/>
+                <DataGridTextColumn Header="Выход" Binding="{Binding ActualExitTime, StringFormat='HH:mm dd.MM'}" Width="100"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <!-- Кнопки действий -->
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,20,20">
+            <Button x:Name="btnAccess" Content="🚪 Разрешить доступ" Width="140" Height="40" Margin="5" Background="DarkGreen" Foreground="White"/>
+            <Button x:Name="btnExit" Content="⏱️ Фиксация выхода" Width="140" Height="40" Margin="5" Background="DarkOrange" Foreground="White"/>
+        </StackPanel>
+    </Grid>
+</Window>
