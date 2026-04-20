@@ -1,0 +1,69 @@
+﻿<Window x:Class="HranitelProGeneralDept.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:HranitelProGeneralDept"
+        Title="Терминал общего отдела - ХранительПРО" Height="550" Width="900"
+        WindowStartupLocation="CenterScreen">
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Верхняя панель -->
+        <Border Grid.Row="0" Background="DarkBlue">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,0,15,0" VerticalAlignment="Center">
+                <Button x:Name="btnReports" Content="📊 Отчеты" Background="DarkGreen" Foreground="White" 
+                BorderThickness="0" Padding="10,5" Margin="0,0,10,0"/>
+                <TextBlock x:Name="lblUser" Foreground="White" VerticalAlignment="Center" Margin="0,0,15,0"/>
+                <Button x:Name="btnLogout" Content="Выйти" Background="DarkRed" Foreground="White" BorderThickness="0" Padding="10,5"/>
+            </StackPanel>
+        </Border>
+        
+        <!-- Фильтры -->
+        <Border Grid.Row="1" Background="#F5F5F5" BorderBrush="#E0E0E0" BorderThickness="0,0,0,1">
+            <StackPanel Orientation="Horizontal" Margin="10" HorizontalAlignment="Center">
+                <TextBlock Text="Тип:" VerticalAlignment="Center" Margin="5,0"/>
+                <ComboBox x:Name="cmbType" Width="100" Margin="5">
+                    <ComboBoxItem>Все</ComboBoxItem>
+                    <ComboBoxItem>личная</ComboBoxItem>
+                    <ComboBoxItem>групповая</ComboBoxItem>
+                </ComboBox>
+
+                <TextBlock Text="Статус:" VerticalAlignment="Center" Margin="5,0"/>
+                <ComboBox x:Name="cmbStatus" Width="100" Margin="5">
+                    <ComboBoxItem>Все</ComboBoxItem>
+                    <ComboBoxItem>проверка</ComboBoxItem>
+                    <ComboBoxItem>одобрена</ComboBoxItem>
+                    <ComboBoxItem>не одобрена</ComboBoxItem>
+                </ComboBox>
+
+                <TextBlock Text="Подразделение:" VerticalAlignment="Center" Margin="5,0"/>
+                <ComboBox x:Name="cmbDepartment" Width="150" Margin="5"/>
+
+                <Button x:Name="btnFilter" Content="Применить фильтр" Width="120" Margin="20,0,0,0" Background="DarkBlue" Foreground="White"/>
+                <Button x:Name="btnReset" Content="Сбросить" Width="80" Margin="5,0,0,0"/>
+            </StackPanel>
+        </Border>
+
+        <!-- Список заявок -->
+        <DataGrid x:Name="dgvRequests" Grid.Row="2" AutoGenerateColumns="False" IsReadOnly="True" Margin="10" SelectionMode="Single" SelectionUnit="FullRow">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="№" Binding="{Binding RequestID}" Width="50"/>
+                <DataGridTextColumn Header="Тип" Binding="{Binding RequestType}" Width="80"/>
+                <DataGridTextColumn Header="Статус" Binding="{Binding Status}" Width="100"/>
+                <DataGridTextColumn Header="Посетитель" Binding="{Binding VisitorLastName}" Width="120"/>
+                <DataGridTextColumn Header="Подразделение" Binding="{Binding TargetDepartment}" Width="150"/>
+                <DataGridTextColumn Header="Цель" Binding="{Binding VisitPurpose}" Width="150"/>
+                <DataGridTextColumn Header="Дата подачи" Binding="{Binding CreatedAt}" Width="100"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <!-- Кнопки действий -->
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,20,20">
+            <Button x:Name="btnView" Content="Просмотр заявки" Width="130" Height="35" Background="DarkBlue" Foreground="White"/>
+        </StackPanel>
+    </Grid>
+</Window>
